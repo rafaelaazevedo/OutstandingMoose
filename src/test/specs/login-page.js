@@ -10,14 +10,14 @@ function LoginPage() {
       username.setValue(user);
       const password = loginElements.getPassword();
       password.setValue(pass);
-      return browser.click(loginElements.getSubmit());
+      browser.click(loginElements.getSubmit());
     },
     assertLogin() {
       const title = browser.getTitle();
-      return assert.equal(title, 'Log In — WordPress.com');
+      assert.equal(title, 'Log In — WordPress.com');
     },
     openLogin() {
-      return browser.click(loginElements.getLogin());
+      browser.click(loginElements.getLogin());
     },
   };
 }
