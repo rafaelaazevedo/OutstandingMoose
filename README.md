@@ -1,4 +1,4 @@
-# Webdriverio configuration project
+# Outstanding Moose
 
 This project is a study aroud the webdriverio framework, it just open the wordpress site and login with invalid credentials and the only assert is the title for now.
 
