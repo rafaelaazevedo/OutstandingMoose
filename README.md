@@ -7,4 +7,4 @@ After cloning it, open the terminal and run: <code>npm install</code>
 
 * Run project
 In your terminal, run:
-<code>./node_modules/.bin/wdio wdio.conf.js</code>
+<code>npm run test</code>
